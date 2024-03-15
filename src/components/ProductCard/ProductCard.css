@@ -1,0 +1,46 @@
+.ProductCard {
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ProductCard-title {
+  font-size: 15px;
+}
+
+.ProductCard:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ProductCard-image-container {
+  width: 200px;
+  height: 300px;
+}
+
+.ProductCard-title {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.ProductCard-image {
+  width: 100%;
+  max-height: 100%;
+}
+
+.ProductCard-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ProductCard-price,
+.ProductCard-rating-count {
+  font-size: 14px;
+}

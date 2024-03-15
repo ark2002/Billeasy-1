@@ -1,0 +1,76 @@
+.DetailsModal {
+  background-color: #fff;
+  position: relative;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.DetailsModal-image {
+  width: 50%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.DetailsModal-details {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: scroll;
+}
+
+.DetailsModal-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.DetailsModal-desc {
+  font-size: 18px;
+}
+
+.DetailsModal-options {
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.DetailsModal-Btn {
+  padding: 20px 20px;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: #ffbc0b;
+}
+
+.buy {
+  background-color: #ff691b;
+  color: white;
+}
+
+.DetailsModal-close {
+  position: absolute;
+  color: red;
+  font-size: 24px;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.DetailsModal-close:hover {
+  font-weight: bold;
+}
